@@ -1,7 +1,7 @@
 [gd_scene load_steps=16 format=3 uid="uid://clpoto60bhtsc"]
 
 [ext_resource type="Texture2D" uid="uid://bafcn2di264ue" path="res://assets/sprites/examples/knight.png" id="1_3vyb7"]
-[ext_resource type="Script" uid="uid://cg86gx08wq577" path="res://scenes/player.gd" id="1_qm0ti"]
+[ext_resource type="Script" uid="uid://cg86gx08wq577" path="res://scripts/player.gd" id="1_qm0ti"]
 [ext_resource type="Texture2D" uid="uid://cbxo5mywuf1pa" path="res://assets/sprites/player_animation.png" id="3_fhbv5"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_g2els"]

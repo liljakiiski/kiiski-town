@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="kiiski-town"
-run/main_scene="uid://pju5kxtviy13"
+run/main_scene="uid://dvwqlup0y51dr"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 config/icon="res://icon.svg"
 

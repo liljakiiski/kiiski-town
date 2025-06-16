@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://dvwqlup0y51dr"]
+
+[ext_resource type="Script" uid="uid://cdluqm6ysasye" path="res://scripts/home.gd" id="1_krot7"]
+
+[node name="Home" type="Node2D"]
+script = ExtResource("1_krot7")
+
+[node name="MoveSceneButton" type="Button" parent="."]
+offset_right = 8.0
+offset_bottom = 8.0
+scale = Vector2(22.5687, 20.598)
+text = "move"
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(579, 320)
+
+[connection signal="button_down" from="MoveSceneButton" to="." method="_on_move_scene_button_button_down"]
