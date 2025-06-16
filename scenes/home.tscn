@@ -11,7 +11,4 @@ offset_bottom = 8.0
 scale = Vector2(22.5687, 20.598)
 text = "move"
 
-[node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(579, 320)
-
 [connection signal="button_down" from="MoveSceneButton" to="." method="_on_move_scene_button_button_down"]
