@@ -11,17 +11,21 @@ stretch = true
 mouse_target = true
 
 [node name="Garden" parent="SubViewportContainer" instance=ExtResource("1_ouy8j")]
-handle_input_locally = false
-size = Vector2i(1010, 622)
-render_target_update_mode = 4
 
-[node name="Button" type="Button" parent="."]
-offset_left = 223.0
-offset_top = 153.0
-offset_right = 278.0
-offset_bottom = 184.0
+[node name="HomeButton" type="Button" parent="."]
+offset_left = 231.0
+offset_top = 161.0
+offset_right = 286.0
+offset_bottom = 192.0
 text = "Home"
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(511, 315)
 zoom = Vector2(2, 2)
+
+[node name="DigButton" type="Button" parent="."]
+offset_left = 759.0
+offset_top = 158.0
+offset_right = 793.0
+offset_bottom = 189.0
+text = "Dig"
